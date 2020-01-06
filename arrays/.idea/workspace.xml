@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78da4411-196d-4807-8923-5efde34664e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VzybhKOh12eglhWiAhzIQreFsd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Arrays4">
+    <configuration name="Arrays2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays2" />
+      <module name="arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays3" />
+      <module name="arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays4" />
+      <module name="arrays" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.Main" />
+      <module name="arrays" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Arrays2" />
+      <item itemvalue="Application.Arrays3" />
+      <item itemvalue="Application.Arrays4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Arrays4" />
+        <item itemvalue="Application.Arrays3" />
+        <item itemvalue="Application.Arrays2" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78da4411-196d-4807-8923-5efde34664e8" name="Default Changelist" comment="" />
+      <created>1578270294505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578270294505</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="760" y="165" width="524" height="437" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1578272136786">
+      <screen x="30" y="0" width="1336" height="768" />
+    </state>
+    <state x="760" y="165" width="524" height="437" key="#com.intellij.ide.util.PackageChooserDialog/30.0.1336.768@30.0.1336.768" timestamp="1578272136786" />
+    <state x="810" y="272" width="434" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578272139832">
+      <screen x="30" y="0" width="1336" height="768" />
+    </state>
+    <state x="810" y="272" width="434" height="228" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/30.0.1336.768@30.0.1336.768" timestamp="1578272139832" />
+    <state width="615" height="187" key="GridCell.Tab.0.bottom" timestamp="1578272494534">
+      <screen x="30" y="0" width="1336" height="768" />
+    </state>
+    <state width="615" height="187" key="GridCell.Tab.0.bottom/30.0.1336.768@30.0.1336.768" timestamp="1578272494534" />
+    <state width="615" height="187" key="GridCell.Tab.0.center" timestamp="1578272494533">
+      <screen x="30" y="0" width="1336" height="768" />
+    </state>
+    <state width="615" height="187" key="GridCell.Tab.0.center/30.0.1336.768@30.0.1336.768" timestamp="1578272494533" />
+    <state width="615" height="187" key="GridCell.Tab.0.left" timestamp="1578272494533">
+      <screen x="30" y="0" width="1336" height="768" />
+    </state>
+    <state width="615" height="187" key="GridCell.Tab.0.left/30.0.1336.768@30.0.1336.768" timestamp="1578272494533" />
+    <state width="615" height="187" key="GridCell.Tab.0.right" timestamp="1578272494534">
+      <screen x="30" y="0" width="1336" height="768" />
+    </state>
+    <state width="615" height="187" key="GridCell.Tab.0.right/30.0.1336.768@30.0.1336.768" timestamp="1578272494534" />
+  </component>
+</project>
