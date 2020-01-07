@@ -1,3 +1,6 @@
+package com.vitorrafael.javamarathon.arrays;
+
+
 public class Arrays4 {
     public static void main(String[] args) {
         int[][] days = new int[3][];
