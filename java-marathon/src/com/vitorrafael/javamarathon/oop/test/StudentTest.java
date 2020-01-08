@@ -9,12 +9,12 @@ public class StudentTest {
         // Class name + variable name = new Constructor()
         Student student = new Student();
 
-        student.name = "Vitor";
-        student.register = "0701";
-        student.age = 18;
+        student.setName("Vitor");
+        student.setAge(-1);
+        student.setGrades(new double[]{10, 8, 3, 4, 5});
 
-        System.out.println(student.name);
-        System.out.println(student.register);
-        System.out.println(student.age);
+        student.print();
+        System.out.println(student.getName());
+        student.getAverage();
     }
 }
