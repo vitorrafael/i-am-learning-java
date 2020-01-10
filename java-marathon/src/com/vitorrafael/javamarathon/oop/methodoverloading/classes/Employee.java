@@ -7,6 +7,8 @@ public class Employee {
     private double salary;
     private String rg;
 
+
+
     // Constructors are called when instancing the class
     public Employee(String name, String cpf, double salary, String rg) {
         this(); // Calling the default constructor; Here it's not necessary
