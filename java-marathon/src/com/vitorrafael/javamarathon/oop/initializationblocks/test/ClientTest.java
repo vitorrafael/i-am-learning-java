@@ -10,7 +10,7 @@ public class ClientTest {
         Client c = new Client();
 
         System.out.println("Number of possible instalments:");
-        for(int instalment : c.getInstalments()) {
+        for(int instalment : c.getInstallments()) {
             System.out.print(instalment + " ");
         }
     }

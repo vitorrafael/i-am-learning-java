@@ -25,11 +25,11 @@ public class Client {
         }
     }
 
-    public int[] getInstalments() {
+    public int[] getInstallments() {
         return this.installments;
     }
 
-    public void setInstalments(int[] instalments) {
-        this.installments = instalments;
+    public void setInstallments(int[] installments) {
+        this.installments = installments;
     }
 }
