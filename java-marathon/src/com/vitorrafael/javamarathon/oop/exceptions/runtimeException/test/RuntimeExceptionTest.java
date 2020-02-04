@@ -13,13 +13,18 @@ public class RuntimeExceptionTest {
         int b = 0;
 
         // It's not possible to divide by 0, throws ArithmeticException
-        if(b != 0) {
-            int c = a/b;
+        if (b != 0) {
+            int c = a / b;
             System.out.println(c);
         }
 
         // Since "o" points to null, there is no object to call the method
         Object o = null;
-        System.out.println(o.toString());
+
+        try {
+            System.out.println(o.toString());
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
     }
 }
