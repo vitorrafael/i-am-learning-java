@@ -8,10 +8,7 @@ import java.util.List;
 
 public class TestConnection {
     public static void main(String[] args) {
-        List<Buyer> buyerList = selectAllByName("itor");
-        if(buyerList != null) {
-            System.out.println(buyerList);
-        }
+        BuyerTable.deleteWithResultSet();
     }
 
     public static void insert() {
