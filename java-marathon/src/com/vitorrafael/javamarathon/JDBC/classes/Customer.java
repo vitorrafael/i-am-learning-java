@@ -1,20 +1,20 @@
 package com.vitorrafael.javamarathon.JDBC.classes;
 
-public class Buyer {
+public class Customer {
 
         private Integer id;
         private String cpf;
         private String name;
 
-        public Buyer() {
+        public Customer() {
         }
 
-        public Buyer(String cpf, String name) {
+        public Customer(String cpf, String name) {
                 this.cpf = cpf;
                 this.name = name;
         }
 
-        public Buyer(Integer id, String cpf, String name) {
+        public Customer(Integer id, String cpf, String name) {
                 this.id = id;
                 this.cpf = cpf;
                 this.name = name;
@@ -49,9 +49,9 @@ public class Buyer {
                 if (this == o) return true;
                 if (o == null || getClass() != o.getClass()) return false;
 
-                Buyer buyer = (Buyer) o;
+                Customer customer = (Customer) o;
 
-                return id != null ? id.equals(buyer.id) : buyer.id == null;
+                return id != null ? id.equals(customer.id) : customer.id == null;
         }
 
         @Override
@@ -61,7 +61,7 @@ public class Buyer {
 
         @Override
         public String toString() {
-                return "Buyer{" +
+                return "Customer{" +
                         "id=" + id +
                         ", cpf='" + cpf + '\'' +
                         ", name='" + name + '\'' +
