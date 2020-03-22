@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af57ec9e-eda5-4eb1-8b03-d23bcc1a8d93" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZVDqoFu6puIgwWRR7zTg1ozKGs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af57ec9e-eda5-4eb1-8b03-d23bcc1a8d93" name="Default Changelist" comment="" />
+      <created>1584915563329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584915563329</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="59" width="800" height="675" key="#Project_Structure" timestamp="1584915832739">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="556" y="59" width="800" height="675" key="#Project_Structure/0.28.1366.740@0.28.1366.740" timestamp="1584915832739" />
+    <state x="760" y="79" width="518" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584915604248">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="760" y="79" width="518" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.28.1366.740@0.28.1366.740" timestamp="1584915604248" />
+  </component>
+</project>
