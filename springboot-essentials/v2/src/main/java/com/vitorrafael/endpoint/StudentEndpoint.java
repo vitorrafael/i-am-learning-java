@@ -26,12 +26,14 @@ public class StudentEndpoint {
         this.dateUtil = dateUtil;
     }
 
-    @RequestMapping(method = RequestMethod.GET)
+    // @RequestMapping(method = RequestMethod.GET)
+    @GetMapping
     public ResponseEntity<?> listAll() {
         return new ResponseEntity<>(Student.studentsList, HttpStatus.OK);
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = "/{id}") // {?} -> ? Will be a parameter
+    // @RequestMapping(method = RequestMethod.GET, path = "/{id}") // {?} -> ? Will be a parameter
+    @GetMapping(path="/{id}")
     public ResponseEntity<?> getStudentById(@PathVariable("id") int id) {
         // @PathVariable recovers the variable
         Student student = new Student();
@@ -43,10 +45,26 @@ public class StudentEndpoint {
         return new ResponseEntity<>(Student.studentsList.get(index), HttpStatus.OK);
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    //@RequestMapping(method = RequestMethod.POST)
+    @PostMapping
     public ResponseEntity<?> save(@RequestBody Student student) {
         // There must be a default constructor to use a POST request
         Student.studentsList.add(student);
         return new ResponseEntity<>(student, HttpStatus.OK);
+    }
+
+    // @RequestMapping(method = RequestMethod.DELETE)
+   @DeleteMapping
+    public ResponseEntity<?> delete(@RequestBody Student student) {
+        Student.studentsList.remove(student);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    // @RequestMapping(method = RequestMethod.PUT)
+    @PutMapping
+    public ResponseEntity<?> update(@RequestBody Student student) {
+        Student.studentsList.remove(student);
+        Student.studentsList.add(student);
+        return new ResponseEntity<>(HttpStatus.OK);
     }
 }
