@@ -7,73 +7,102 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1W2DtXQaZZhM69oVTijuLtaAZ48" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.javamarathon.Main" />
+  <component name="ProjectId" id="1W2DtXQaZZhM69oVTijuLtaAZ48" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.TestCRUD">
+    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.javamarathon.innerClasses.test.AnonymousClasses" />
       <module name="java-marathon" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitorrafael.javamarathon.innerClasses.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LocalClassesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.javamarathon.innerClasses.test.LocalClassesTest" />
+      <module name="java-marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitorrafael.javamarathon.innerClasses.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticInternalClassesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.javamarathon.innerClasses.test.StaticInternalClassesTest" />
+      <module name="java-marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitorrafael.javamarathon.innerClasses.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCRUD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.javamarathon.JDBC.test.TestCRUD" />
+      <module name="java-marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitorrafael.javamarathon.JDBC.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.javamarathon.JDBC.test.TestConnection" />
+      <module name="java-marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitorrafael.javamarathon.JDBC.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestCRUD" />
+        <item itemvalue="Application.TestConnection" />
+        <item itemvalue="Application.StaticInternalClassesTest" />
+        <item itemvalue="Application.AnonymousClasses" />
+        <item itemvalue="Application.LocalClassesTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -96,5 +125,75 @@
       <updated>1578339011386</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="59" width="800" height="675" key="#Project_Structure" timestamp="1584317954144">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="556" y="59" width="800" height="675" key="#Project_Structure/0.28.1366.740@0.28.1366.740" timestamp="1584317954144" />
+    <state x="779" y="203" width="470" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584813745063">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="779" y="203" width="470" height="387" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1366.740@0.28.1366.740" timestamp="1584813745063" />
+    <state x="816" y="107" width="550" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1584818281373">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="816" y="107" width="550" height="577" key="#com.intellij.ide.util.MemberChooser/0.28.1366.740@0.28.1366.740" timestamp="1584818281373" />
+    <state x="826" y="296" width="378" height="199" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584815667660">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="826" y="296" width="378" height="199" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.28.1366.740@0.28.1366.740" timestamp="1584815667660" />
+    <state x="739" y="112" width="560" height="570" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1584816414470">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="739" y="112" width="560" height="570" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.28.1366.740@0.28.1366.740" timestamp="1584816414470" />
+    <state x="738" y="28" width="552" height="738" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584815564309">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="738" y="28" width="552" height="738" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.28.1366.740@0.28.1366.740" timestamp="1584815564309" />
+    <state x="660" y="140" width="582" height="510" key="FileChooserDialogImpl" timestamp="1584317942174">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="660" y="140" width="582" height="510" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1584317942174" />
+    <state width="629" height="171" key="GridCell.Tab.0.bottom" timestamp="1584820886254">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="629" height="171" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1584820886254" />
+    <state width="629" height="171" key="GridCell.Tab.0.center" timestamp="1584820886254">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="629" height="171" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1584820886254" />
+    <state width="629" height="171" key="GridCell.Tab.0.left" timestamp="1584820886253">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="629" height="171" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1584820886253" />
+    <state width="629" height="171" key="GridCell.Tab.0.right" timestamp="1584820886254">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="629" height="171" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1584820886254" />
+    <state x="65" y="28" width="1027" height="730" key="SettingsEditor" timestamp="1584315505638">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="65" y="28" width="1027" height="730" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1584315505638" />
+    <state x="338" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584298542195">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="338" y="225" key="com.intellij.ide.util.TipDialog/0.28.1366.740@0.28.1366.740" timestamp="1584298542195" />
+    <state x="799" y="90" width="430" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584813810539">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="799" y="90" width="430" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.28.1366.740@0.28.1366.740" timestamp="1584813810539" />
+    <state x="783" y="128" width="483" height="540" key="dock-window-1" timestamp="1584481265766">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="783" y="128" width="483" height="540" key="dock-window-1/0.28.1366.740@0.28.1366.740" timestamp="1584481265766" />
+    <state x="683" y="176" key="run.anything.popup" timestamp="1584820430652">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="683" y="176" key="run.anything.popup/0.28.1366.740@0.28.1366.740" timestamp="1584820430652" />
+    <state x="687" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584804292451">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="687" y="89" width="672" height="678" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1584804292451" />
   </component>
 </project>
