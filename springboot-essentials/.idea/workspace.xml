@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="af57ec9e-eda5-4eb1-8b03-d23bcc1a8d93" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -7,7 +10,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="pluginUpdatePolicy" value="UPDATE" />
+        <option name="printErrorStackTraces" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -22,10 +38,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vitorrafael.awesome.ApplicationStart" />
+      <module name="springboot-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vitorrafael.awesome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationStart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,13 +74,57 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="59" width="800" height="675" key="#Project_Structure" timestamp="1584915832739">
+    <state x="556" y="59" width="800" height="675" key="#Project_Structure" timestamp="1585060212110">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="556" y="59" width="800" height="675" key="#Project_Structure/0.28.1366.740@0.28.1366.740" timestamp="1584915832739" />
-    <state x="760" y="79" width="518" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584915604248">
+    <state x="556" y="59" width="800" height="675" key="#Project_Structure/0.28.1366.740@0.28.1366.740" timestamp="1585060212110" />
+    <state x="282" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585060384968">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="760" y="79" width="518" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.28.1366.740@0.28.1366.740" timestamp="1584915604248" />
+    <state x="282" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1366.740@0.28.1366.740" timestamp="1585060384968" />
+    <state x="832" y="117" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1584917847553">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="832" y="117" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/0.28.1366.740@0.28.1366.740" timestamp="1584917847553" />
+    <state x="760" y="79" width="518" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585060140669">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="760" y="79" width="518" height="636" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.28.1366.740@0.28.1366.740" timestamp="1585060140669" />
+    <state x="791" y="141" width="424" height="510" key="FileChooserDialogImpl" timestamp="1585061106655">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="791" y="141" width="424" height="510" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1585061106655" />
+    <state width="639" height="176" key="GridCell.Tab.0.bottom" timestamp="1585059609308">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="639" height="176" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1585059609308" />
+    <state width="639" height="176" key="GridCell.Tab.0.center" timestamp="1585059609307">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="639" height="176" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1585059609307" />
+    <state width="639" height="176" key="GridCell.Tab.0.left" timestamp="1585059609306">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="639" height="176" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1585059609306" />
+    <state width="639" height="176" key="GridCell.Tab.0.right" timestamp="1585059609307">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="639" height="176" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1585059609307" />
+    <state x="636" y="69" width="720" height="656" key="Registry" timestamp="1585059438460">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="636" y="69" width="720" height="656" key="Registry/0.28.1366.740@0.28.1366.740" timestamp="1585059438460" />
+    <state x="332" y="28" width="1024" height="738" key="SettingsEditor" timestamp="1585060589767">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="332" y="28" width="1024" height="738" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1585060589767" />
+    <state x="661" y="28" width="695" height="738" key="new project wizard" timestamp="1585061113646">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="661" y="28" width="695" height="738" key="new project wizard/0.28.1366.740@0.28.1366.740" timestamp="1585061113646" />
+    <state x="687" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585059431634">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="687" y="89" width="672" height="678" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1585059431634" />
   </component>
 </project>
