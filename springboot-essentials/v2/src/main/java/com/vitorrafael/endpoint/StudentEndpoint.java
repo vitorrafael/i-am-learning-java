@@ -1,12 +1,15 @@
 package com.vitorrafael.endpoint;
 
-import com.vitorrafael.error.CustomErrorType;
+import com.vitorrafael.error.ResourceNotFoundException;
 import com.vitorrafael.model.Student;
 import com.vitorrafael.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import javax.transaction.Transactional;
+import javax.validation.Valid;
 
 // Annotation of Spring MVC based that adds automatically the @ResponseBody to all methods
 // @ResponseBody says that everything returned by a method will be JSON
@@ -30,10 +33,8 @@ public class StudentEndpoint {
     @GetMapping(path="/{id}")
     public ResponseEntity<?> getStudentById(@PathVariable("id") Long id) {
         // @PathVariable recovers the variable
-        Student student = DAO.findById(id).get();
-        if(student == null ) {
-            return new ResponseEntity<>(new CustomErrorType("Student not found."), HttpStatus.NOT_FOUND);
-        }
+        verifyIfStudentExists(id);
+        Student  student = DAO.findById(id).get();
         return new ResponseEntity<>(student, HttpStatus.OK);
     }
 
@@ -43,8 +44,10 @@ public class StudentEndpoint {
     }
 
     //@RequestMapping(method = RequestMethod.POST)
+    // @Transactional -> Transform into a transaction
     @PostMapping
-    public ResponseEntity<?> save(@RequestBody Student student) {
+    @Transactional(rollbackOn = Exception.class)
+    public ResponseEntity<?> save(@Valid @RequestBody Student student) {
         // There must be a default constructor to use a POST request
         return new ResponseEntity<>(DAO.save(student), HttpStatus.CREATED);
     }
@@ -52,7 +55,8 @@ public class StudentEndpoint {
     // @RequestMapping(method = RequestMethod.DELETE)
    @DeleteMapping(path="/{id}")
     public ResponseEntity<?> delete(@PathVariable Long  id) {
-        DAO.deleteById(id);
+       verifyIfStudentExists(id);
+       DAO.deleteById(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
@@ -60,8 +64,15 @@ public class StudentEndpoint {
     @PutMapping
     public ResponseEntity<?> update(@RequestBody Student student) {
         // The update will be automatically done
+        verifyIfStudentExists(student.getId());
         DAO.save(student);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
+
+    private void verifyIfStudentExists(Long id) {
+        if(!DAO.findById(id).isPresent()) {
+            throw new ResourceNotFoundException("Student not found for Id: " + id);
+        }
     }
 }
 
