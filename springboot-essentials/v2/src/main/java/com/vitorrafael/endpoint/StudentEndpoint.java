@@ -37,18 +37,23 @@ public class StudentEndpoint {
         return new ResponseEntity<>(student, HttpStatus.OK);
     }
 
+    @GetMapping(path="/name/{name}")
+    public ResponseEntity<?> getStudentsByName(@PathVariable String name) {
+        return new ResponseEntity<>(DAO.findByNameIgnoreCaseContaining(name), HttpStatus.OK);
+    }
+
     //@RequestMapping(method = RequestMethod.POST)
     @PostMapping
     public ResponseEntity<?> save(@RequestBody Student student) {
         // There must be a default constructor to use a POST request
-        return new ResponseEntity<>(DAO.save(student), HttpStatus.OK);
+        return new ResponseEntity<>(DAO.save(student), HttpStatus.CREATED);
     }
 
     // @RequestMapping(method = RequestMethod.DELETE)
    @DeleteMapping(path="/{id}")
     public ResponseEntity<?> delete(@PathVariable Long  id) {
         DAO.deleteById(id);
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
     // @RequestMapping(method = RequestMethod.PUT)
@@ -56,7 +61,7 @@ public class StudentEndpoint {
     public ResponseEntity<?> update(@RequestBody Student student) {
         // The update will be automatically done
         DAO.save(student);
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
 
