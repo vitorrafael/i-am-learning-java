@@ -4,6 +4,7 @@ import com.vitorrafael.error.ResourceNotFoundException;
 import com.vitorrafael.model.Student;
 import com.vitorrafael.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -25,8 +26,9 @@ public class StudentEndpoint {
 
     // @RequestMapping(method = RequestMethod.GET)
     @GetMapping
-    public ResponseEntity<?> listAll() {
-        return new ResponseEntity<>(DAO.findAll(), HttpStatus.OK);
+    public ResponseEntity<?> listAll(Pageable pageable) {
+        // Pageable is an interface used to paginate that contains all features from a paginated endpoint
+        return new ResponseEntity<>(DAO.findAll(pageable), HttpStatus.OK);
     }
 
     // @RequestMapping(method = RequestMethod.GET, path = "/{id}") // {?} -> ? Will be a parameter
