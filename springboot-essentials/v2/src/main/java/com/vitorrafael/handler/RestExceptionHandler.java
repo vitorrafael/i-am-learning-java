@@ -60,7 +60,6 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
     @Override
      public ResponseEntity<Object> handleExceptionInternal(Exception ex, @Nullable Object body, HttpHeaders headers, HttpStatus status, WebRequest request) {
         // A default handler for every internal exception
-
         ErrorDetails errorDetails = ErrorDetails.Builder
                 .newBuilder()
                 .timestamp(new Date().getTime())
