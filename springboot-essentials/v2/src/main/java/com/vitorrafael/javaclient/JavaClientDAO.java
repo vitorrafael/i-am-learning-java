@@ -1,5 +1,6 @@
 package com.vitorrafael.javaclient;
 
+import com.vitorrafael.handler.RestResponseExceptionHandler;
 import com.vitorrafael.model.PageableResponse;
 import com.vitorrafael.model.Student;
 import org.apache.coyote.Response;
@@ -14,11 +15,13 @@ public class JavaClientDAO {
     private  static RestTemplate restTemplateUser = new RestTemplateBuilder()
             .rootUri("http://localhost:8080/v2/protected/students")
             .basicAuthentication("vitorrafael", "07042001")
+            .errorHandler(new RestResponseExceptionHandler())
             .build();
 
      private static RestTemplate restTemplateAdmin = new RestTemplateBuilder()
             .rootUri("http://localhost:8080/v2/admin/students")
             .basicAuthentication("admin", "admin")
+            .errorHandler(new RestResponseExceptionHandler())
             .build();
 
     {
