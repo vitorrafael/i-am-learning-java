@@ -14,6 +14,14 @@ public class Student extends AbstractEntity {
     @NotEmpty(message = "Field Email must not be empty") // Customize error message
     private String email;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
