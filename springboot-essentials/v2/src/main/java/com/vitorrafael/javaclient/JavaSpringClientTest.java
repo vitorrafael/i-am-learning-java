@@ -14,7 +14,7 @@ public class JavaSpringClientTest {
         newStudent.setName("Rose Freitas");
         newStudent.setEmail("rosefreitas@yahoo.com.br");
 
-        Student getStudent = javaClientDAO.findByIdWithObject(27);
+        Student getStudent = javaClientDAO.findByIdWithObject(27L);
         System.out.println(getStudent);
 
         Student postStudent = javaClientDAO.saveWithForObject(newStudent);
@@ -25,5 +25,14 @@ public class JavaSpringClientTest {
         for(Student student : students) {
             System.out.println(student);
         }
+
+        Student studentPut = new Student();
+        studentPut.setName("Keanu Reeves");
+        studentPut.setEmail("johnwick@pencil.com");
+        studentPut.setId(27L);
+
+        javaClientDAO.update(studentPut);
+
+        javaClientDAO.delete(33L);
     }
 }

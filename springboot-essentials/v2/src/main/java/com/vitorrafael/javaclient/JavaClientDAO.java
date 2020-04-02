@@ -63,6 +63,14 @@ public class JavaClientDAO {
         return responseEntity.getBody();
     }
 
+    public void update(Student student) {
+        restTemplateAdmin.put("/", student);
+    }
+
+    public void delete(long id) {
+        restTemplateAdmin.delete("/{id}", id);
+    }
+
     private HttpHeaders createJSONHeader() {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
