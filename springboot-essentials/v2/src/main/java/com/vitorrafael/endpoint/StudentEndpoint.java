@@ -27,7 +27,7 @@ public class StudentEndpoint {
     }
 
     // @RequestMapping(method = RequestMethod.GET)
-    @GetMapping(path = "protected/students/")
+    @GetMapping(path = "protected/students")
     public ResponseEntity<?> listAll(Pageable pageable) {
         // Pageable is an interface used to paginate that contains all features from a paginated endpoint
         return new ResponseEntity<>(DAO.findAll(pageable), HttpStatus.OK);
@@ -50,7 +50,7 @@ public class StudentEndpoint {
 
     //@RequestMapping(method = RequestMethod.POST)
     // @Transactional -> Transform into a transaction
-    @PostMapping(path = "admin/students/")
+    @PostMapping(path = "admin/students")
     @Transactional(rollbackOn = Exception.class)
     public ResponseEntity<?> save(@Valid @RequestBody Student student) {
         // There must be a default constructor to use a POST request
