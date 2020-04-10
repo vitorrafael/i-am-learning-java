@@ -49,7 +49,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
                 .timestamp(new Date().getTime())
                 .status(HttpStatus.BAD_REQUEST.value())
                 .title("Field Validation Error")
-                .details("Field Validation Error")
+                .details(manvException.getMessage())
                 .developerMessage(manvException.getClass().getName())
                 .field(fields)
                 .fieldMessage(fieldMessages)
